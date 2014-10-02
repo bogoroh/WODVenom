@@ -1,0 +1,92 @@
+// #37465D - Light blue
+// #F2F2F2 - White
+// #9DC02E - Light Green
+// #779324 - Dark Green
+// #051A37 - Dark Blue
+
+$lblue:#37465D;
+$white:#F2F2F2;
+$lgreen:#9DC02E;
+$dgreen:#779324;
+$dblue:#051A37;
+$fontHeader:   'Alegreya', serif;
+$fontText: 'Roboto', sans-serif;
+$fontSubHeader: 'Roboto Condensed', sans-serif;
+
+// ======================================================
+//						NAVIGATION 
+// ======================================================
+
+body {
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	background-color: $white;
+	margin-bottom: 50px;
+}
+
+#wrapper{
+	width:960px;
+	margin: 0 auto;
+	margin-top:100px
+}
+
+.navbar-header{
+	float:none;
+}
+
+.navbar-header .navbar-brand {
+	background-image: url(../images/logo.png);
+	text-indent: -999px;
+	overflow: hidden;
+	width:200px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+.btn {
+	border-radius:0;
+	border-color:$dblue;
+	border-width:3px;
+	margin-right:30px;
+	margin-top:5px;
+	font: 100% $fontText;
+	color: $dblue;
+}
+
+.btn:hover {
+	a {
+		color:$white;
+	}
+		border-color:$dblue;
+		background-color:$dblue;
+		display: inline-block;
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-webkit-transition-property: background;
+		transition-property: background;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);	
+}
+
+
+a {
+	color:$dblue;
+}
+
+a:hover {
+	text-decoration:none;
+	color:$white;
+}
+
+#intro {
+	font-size:18px;
+	line-height:30px;
+}
+
+.lead {
+	font: 100% $fontText;
+	font-size:18px;
+}
+

@@ -1,0 +1,15 @@
+{
+  "name": "angular-skip-filter",
+  "version": "0.0.1",
+  "main": "skip.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    ".bowerrc",
+    ".travis.yml"
+  ],
+  "dependencies": {
+    "angular": "~1.0.7",
+    "angular-mocks": "~1.0.7"
+  }
+}

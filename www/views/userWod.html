@@ -1,0 +1,10 @@
+<h1> This is the daily view for User WOD </h1>
+
+<ul>
+	<li ng-repeat="wod in wods">
+		<p> {{wod.title}}</p>
+		<p>{{wod.time}}</p>
+		<p>{{wod.body}}</p>
+		<a ng-href="/#/user/submit/{{wod.$id}}">Submit Score</a>
+	</li>
+</ul>

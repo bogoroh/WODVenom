@@ -1,0 +1,5 @@
+<link href='http://fonts.googleapis.com/css?family=Alegreya:700|Roboto|Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+font-family: 'Alegreya', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;

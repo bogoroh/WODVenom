@@ -1,0 +1,17 @@
+<h1> Welcome to the Admin Home page </h1>
+<ul>
+	<li ng-repeat="wod in wods">
+		<form ng-submit="save($index); editing = false">
+			<p ng-hide="editing"> {{wod.title}}</p>
+			<input ng-show="editing" type="text" ng-model="wod.title" ng-required/>
+			<p>{{wod.time}}</p>
+			<p ng-hide="editing">{{wod.body}}</p>
+			<input ng-show="editing" type="text" ng-model="wod.body" placeholder={{wod.body}} ng-required/>
+			<a ng-hide="editing" ng-click="editing = true">edit</a> <br>
+		    <button ng-show="editing"  class="btn" type="submit">Save</button>
+   		</form>
+		<button ng-click="destroy($index)">delete</button>
+	</li>
+</ul>
+
+<a href="/#/admin/addwod">Create WOD</a>

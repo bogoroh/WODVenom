@@ -1,0 +1,26 @@
+{
+  "name": "angular-skip-filter",
+  "version": "0.0.1",
+  "main": "skip.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    ".bowerrc",
+    ".travis.yml"
+  ],
+  "dependencies": {
+    "angular": "~1.0.7",
+    "angular-mocks": "~1.0.7"
+  },
+  "homepage": "https://github.com/platanus/angular-skip-filter",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "073753b48b9b9c3e8262a0bee2653e19bcaafed7"
+  },
+  "_source": "git://github.com/platanus/angular-skip-filter.git",
+  "_target": "~0.0.1",
+  "_originalSource": "angular-skip-filter",
+  "_direct": true
+}

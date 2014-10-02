@@ -1,0 +1,5 @@
+- Add Pagination to the user wod
+- Add register without facebook
+- Better Security
+- Error Handling
+- Admin page restriction
